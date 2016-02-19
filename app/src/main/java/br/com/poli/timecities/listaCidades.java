@@ -1,0 +1,14 @@
+package br.com.poli.timecities;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+
+public class listaCidades extends ActionBarActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_lista_cidades);
+
+    }
+}
